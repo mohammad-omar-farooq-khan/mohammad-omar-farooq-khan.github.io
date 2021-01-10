@@ -3,7 +3,7 @@ if('serviceWorker' in navigator) {
            .register('sw.js')
            .then(function() { console.log('Service Worker Registered'); });
 navigator.serviceWorker.ready.then(function(swRegistration) {
-  return swRegistration.sync.register('myFirstSync');
+  return swRegistration.sync.register('mySecondSync');
 });
 }
 
