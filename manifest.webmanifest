@@ -1,0 +1,15 @@
+{
+  "background_color": "cyan",
+  "description": "You can chat with any contact on whatsapp without saving their number",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "IMG-20201127-WA0043.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "WhatsApp Any",
+  "short_name": "Whats Any",
+  "start_url": "whatsapp.html"
+}
