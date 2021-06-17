@@ -1,5 +1,5 @@
 {
-  "background_color": "chartreuse",
+  "background_color": "cyan",
   "description": "You can chat with any contact on whatsapp without saving their number",
   "display": "standalone",
   "icons": [
@@ -9,7 +9,7 @@
       "type": "image/png"
     }
   ],
-  "name": "WhatsAny",
+  "name": "WhatsAny is",
   "short_name": "WhatsAny",
   "start_url": "index.html"
 }
