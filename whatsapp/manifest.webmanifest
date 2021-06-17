@@ -1,10 +1,10 @@
 {
-  "background_color": "cyan",
+  "background_color": "chartreuse",
   "description": "You can chat with any contact on whatsapp without saving their number",
   "display": "standalone",
   "icons": [
     {
-      "src": "whatsapp-1623579_1280.png",
+      "src": "https://mohammad-omar-farooq-khan.github.io/whatsapp-1623579_1280.png",
       "sizes": "192x192",
       "type": "image/png"
     }
