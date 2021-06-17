@@ -1,6 +1,13 @@
 <!doctype html>
 <html>
 <head>
+<style>
+button {
+background : blue ;
+color: white ;
+border-radius: 5px ;
+}
+</style>
 <script src="/index.js"></script>
 <link rel="manifest" href="/manifest.webmanifest">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +21,6 @@
 But now you wouldn't have to do it. Just type the number in the above box, Then click on done button.<br>
 <b>Note: </b>Only Indian Numbers supported till now.<br> If you have turned of pop-ups in your browser then <a href="#" id="link" >Click Here</a>
 <br></p>
-<button class="add-button">Add to Home Screen</button>
 <script>
 function whats() {
 window.open("https://wa.me/91" + document.getElementById("number").value )
