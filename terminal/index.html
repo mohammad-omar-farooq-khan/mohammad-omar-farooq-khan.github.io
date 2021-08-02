@@ -48,6 +48,11 @@ function typewriter()
  }
 }
 typewriter();
+function displayTime() {
+    myTime = new date();
+    document.getElementById("example").innerHTML = myTime;
+    setInterval(displayTime, 1000);   //THIS is the part I messed up (setInterval mutiplies).
+}
 </script>
 </body>
 </html>
