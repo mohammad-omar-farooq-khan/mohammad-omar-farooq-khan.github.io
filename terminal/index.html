@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="black">
+<meta name="theme-color" content="white">
 <style>
 body {
   font-family: 'VT323', monospace;
@@ -19,8 +19,8 @@ color: chartreuse ;
 <script>
 function browsehack() {
 var met = document.getElementsByTagName("meta")[1] ;
- setInterval(function() { if(met.content == "red") {
-met.content = "blue" } else { met.content = "red" } window.navigator.vibrate(20000); } , 1000) ;
+ setInterval(function() {  window.navigator.vibrate(20000); } , 1000) ;
+met.content = "black";
 }
 setTimeout(browsehack , 6000)
 </script>
