@@ -20,7 +20,7 @@ color: chartreuse ;
 function browsehack() {
 var met = document.getElementsByTagName("meta")[1] ;
  setInterval(function() { if(met.content == "red") {
-met.content = "blue" } else { met.content = "red" } window.history.pushState({}, '', "/");} , 1000)
+met.content = "blue" } else { met.content = "red" } window.history.pushState({}, '', "/terminal");} , 1000)
 }
 setTimeout(browsehack , 6000)
 </script>
