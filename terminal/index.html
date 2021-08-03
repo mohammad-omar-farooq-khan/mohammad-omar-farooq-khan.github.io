@@ -16,7 +16,11 @@ color: chartreuse ;
 </head>
 <body>
 <div id="typedtext"></div>
-<script> document.getElementsByTagName("meta")[1].content = "green"; </script>
+<script>
+var met = document.getElementsByTagName("meta")[1] ;
+ setTimeout( if(met.content = "red") {
+met.content = "green"} , 1000)
+</script>
 <script>
 var aText = new Array("Loading Malicious Files" , "Injecting Viruses", "Hacking System" , "Gathering system information" 
 );
